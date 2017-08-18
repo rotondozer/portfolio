@@ -1,0 +1,31 @@
+body {
+  position: relative;
+}
+#about {
+  padding-top:50px;
+  height:500px;color: #fff;
+  background-color: #1E88E5;
+}
+#projects {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: #673ab7;
+}
+#skills {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: #ff9800;
+}
+#resume {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: #00bcd4;
+}
+#contact {
+  padding-top:50px;
+  height:500px;color: #fff;
+  background-color: #009688;
+}
