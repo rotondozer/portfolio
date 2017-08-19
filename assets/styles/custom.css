@@ -2,25 +2,25 @@ body {
   position: relative;
 }
 #about {
-  padding-top:50px;
-  height:500px;color: #fff;
+  padding-top: 50px;
+  height: 500px;color: #fff;
   background-color: #1E88E5;
 }
 #projects {
-  padding-top:50px;
-  height:500px;
+  padding-top: 50px;
+  height: 500px;
   color: #fff;
   background-color: #673ab7;
 }
 #skills {
-  padding-top:50px;
-  height:500px;
+  padding-top: 50px;
+  height: 500px;
   color: #fff;
   background-color: #ff9800;
 }
 #resume {
-  padding-top:50px;
-  height:500px;
+  padding-top: 50px;
+  height: 1200px;
   color: #fff;
   background-color: #00bcd4;
 }
