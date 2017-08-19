@@ -30,14 +30,16 @@
       </div>
       <div>
         <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#band">Honest Living</a></li>
+                <li><a href="#dog">Dahlia</a></li>
               </ul>
             </li>
           </ul>
@@ -46,29 +48,63 @@
     </div>
   </nav>
   <main>
+    <!-- TODO add personal brand story here -->
     <div id="about" class="container-fluid">
       <h1>About Me</h1>
         <p>Here's where I'm going to write how awesome I am</p>
-
     </div>
+
+    <!-- TODO embed project thumbnails -->
     <div id="projects" class="container-fluid">
       <h1>Projects</h1>
-        <p>Here's where I'm going to write how awesome I am</p>
-
+        <p>Here's where I'm going to embed project thumbnails</p>
     </div>
+
     <div id="skills" class="container-fluid">
       <h1>Skills</h1>
-        <p>Here's where I'm going to write how awesome I am</p>
+        <p>Relist skills on resume?</p>
     </div>
+
+    <!-- TODO resize resume before embed -->
     <div id="resume" class="container-fluid">
       <h1>Resume</h1>
-        <iframe src="https://resume.creddle.io/embed/b5l653pwg2r" width="850" height="1100" seamless>resume</iframe>
-
+        <iframe src="https://resume.creddle.io/embed/b5l653pwg2r" width="860" height="1110" seamless>resume</iframe>
     </div>
+
+    <!-- TODO wire up contact form with email address -->
+    <!-- TODO add phone number field with smaller input fields -->
     <div id="contact" class="container-fluid">
       <h1>Contact Me</h1>
-        <p>Here's where I'm going to write how awesome I am</p>
+        <form class="" action="index.html" method="post">
+          <div class="form-group">
+            <label for="enter-email">Email Address</label>
+            <input type="email" class="form-control" id="enter-email" name="" value="" placeholder="Your Email">
+            <label for="">Body</label>
+            <textarea class="form-control" id="email-contents" rows="3" placeholder="Your message here"></textarea>
+          </div>
+          <button type="submit" class="btn btn-block btn-primary" name="button">Send</button>
+        </form>
     </div>
-  </main>
+
+    <!-- TODO add link to bandcamp and/or images from shows -->
+    <div id="band" class="container-fluid">
+      <h1>Honest Living</h1>
+        <p>Drummer in Providence emo band recalling 90s sad riffs and twinkley guitar melodies.</p>
+        <ul>
+          <p>Influences:</p>
+          <li>Bear Vs Shark</li>
+          <li>CSTVT</li>
+          <li>Sunny Day Real Estate</li>
+          <li>Texas Is The Reason</li>
+          <li>Saves The Day</li>
+          <li>American Football</li>
+        </ul>
+    </div>
+
+    <!-- TODO add images of Dahlia -->
+    <div id="dog" class="container-fluid">
+      <h1>Dahlia</h1>
+        <p>My dog is awesome too.</p>
+    </div>
 </body>
 </html>

@@ -1,31 +1,49 @@
 body {
   position: relative;
 }
+
 #about {
   padding-top: 50px;
   height: 500px;color: #fff;
-  background-color: #1E88E5;
+  background-color: rgba(105, 161, 179, 0.81);
 }
+
 #projects {
   padding-top: 50px;
   height: 500px;
   color: #fff;
-  background-color: #673ab7;
+  background-color: rgba(89, 128, 101, 0.89);
 }
+
 #skills {
   padding-top: 50px;
   height: 500px;
   color: #fff;
-  background-color: #ff9800;
+  background-color: rgba(105, 161, 179, 0.81);
 }
+
 #resume {
   padding-top: 50px;
-  height: 1200px;
+  height: 1250px;
   color: #fff;
-  background-color: #00bcd4;
+  background-color: rgba(89, 128, 101, 0.89);
 }
+
 #contact {
   padding-top:50px;
   height:500px;color: #fff;
-  background-color: #009688;
+  background-color: rgba(105, 161, 179, 0.81);
+}
+
+#band {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: rgba(89, 128, 101, 0.89);
+}
+
+#dog {
+  padding-top:50px;
+  height:500px;color: #fff;
+  background-color: rgba(105, 161, 179, 0.81);
 }
