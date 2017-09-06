@@ -1,8 +1,28 @@
 body {
   position: relative;
+  font-family: 'Jacques Francois', serif;
+  font-size: 16px;
+}
+
+.pics {
+  float: left;
+  margin: 15px;
+  max-height: 400px;
+  max-width: 300px;
+  height: auto;
+  width: auto;
+}
+
+.section {
+  padding: 15px !important;
+}
+
+.section-heading {
+  padding: 10px;
 }
 
 #about {
+  margin-top: 50px;
   padding-top: 50px;
   height: 500px;color: #fff;
   background-color: rgba(105, 161, 179, 0.81);

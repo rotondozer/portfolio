@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Jacques+Francois" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles/custom.css">
 
   <!-- Do not add `link` tags unless you know what you are doing -->
@@ -18,6 +19,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -47,34 +49,47 @@
       </div>
     </div>
   </nav>
+
   <main>
     <!-- TODO add personal brand story here -->
-    <div id="about" class="container-fluid">
-      <h1>About Me</h1>
-        <p>Here's where I'm going to write how awesome I am</p>
+    <div id="about" class="container-fluid section">
+      <h1 class="section-heading">About Me</h1>
+      <img class="pics" src="https://i.imgur.com/oF8VJdw.png" alt="awesome guy with hat">
+      <p>It’s difficult to pinpoint the exact time I fell in love with music, but it was around age 13. Curiosity led me to pick up an instrument for the first time and take it home and see what I could do with it - completely unaware the passion that existed within. But that’s how all relationships start, isn’t it?  </p>
+
+      <p>I never took lessons. Hours upon hours were spent listening and recreating, trying to emulate my favorite drummers or guitarists. I was my own worst critic, but the drive I had for playing and learning music fostered my incessant ability to learn and get better. An inclination towards math with a pinch of creativity is why I love writing music. It’s something I love doing so I’ll always try to be the best I can at it.</p>
+
+      <p>Curiosity also led me to coding, and once I was hooked I traveled down a similar path of self-learning. I can honestly say I never thought I’d have such a passion for programming. I didn’t realize the simple pleasures I find in solving logic puzzles and staying organized, in partnership with the work ethic and efficiency I’ve developed over the years, would make for a good developer.</p>
+
+      <p>Now that I’ve withstood the trial of being my own teacher, adding the professional training of General Assembly has allowed me to really hone my skills as a developer.</p>
+
+      <p>I love programming and I love playing music. They both invoke a similar thrill when I get taken into my work and let the ideas flow through my fingertips, producing material I'm proud of. Sometimes making the right stoke of keys feels like climbing scales on a guitar, or playing shortcut-keys like chords. Lucky enough, I can persue one of my passions professionally.</p>
     </div>
 
     <!-- TODO embed project thumbnails -->
-    <div id="projects" class="container-fluid">
-      <h1>Projects</h1>
-        <p>Here's where I'm going to embed project thumbnails</p>
+    <div id="projects" class="container-fluid section">
+      <h1 class="section-heading">Projects</h1>
+        <a href="https://rotondozer.github.io/tic-tac-toe/">Tic-Tac-Toad</a> ||
+        <a href="https://github.com/rotondozer/tic-tac-toe">Link to GitHub Repository</a>
+        <p>Classic Tic-Tac-Toe with a slimy twist. SPA that uses JS for game logic and AJAX requests to send user information and game data to a provided API using JSON.</p>
+
     </div>
 
-    <div id="skills" class="container-fluid">
-      <h1>Skills</h1>
+    <div id="skills" class="container-fluid section">
+      <h1 class="section-heading">Skills</h1>
         <p>Relist skills on resume?</p>
     </div>
 
     <!-- TODO resize resume before embed -->
-    <div id="resume" class="container-fluid">
-      <h1>Resume</h1>
+    <div id="resume" class="container-fluid section">
+      <h1 class="section-heading">Resume</h1>
         <iframe src="https://resume.creddle.io/embed/b5l653pwg2r" width="860" height="1110" seamless>resume</iframe>
     </div>
 
     <!-- TODO wire up contact form with email address -->
     <!-- TODO add phone number field with smaller input fields -->
-    <div id="contact" class="container-fluid">
-      <h1>Contact Me</h1>
+    <div id="contact" class="container-fluid section">
+      <h1 class="section-heading">Contact Me</h1>
         <form class="" action="index.html" method="post">
           <div class="form-group">
             <label for="enter-email">Email Address</label>
@@ -87,8 +102,8 @@
     </div>
 
     <!-- TODO add link to bandcamp and/or images from shows -->
-    <div id="band" class="container-fluid">
-      <h1>Honest Living</h1>
+    <div id="band" class="container-fluid section">
+      <h1 class="section-heading">Honest Living</h1>
         <p>Drummer in Providence emo band recalling 90s sad riffs and twinkley guitar melodies.</p>
         <ul>
           <p>Influences:</p>
