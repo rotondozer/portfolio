@@ -21,6 +21,15 @@ body {
   padding: 10px;
 }
 
+.thumbnail {
+  font-size: 12px;
+}
+
+
+/*.thumbnail > img {
+  max-height: 200px;
+}*/
+
 #about {
   margin-top: 50px;
   padding-top: 50px;
@@ -30,7 +39,7 @@ body {
 
 #projects {
   padding-top: 50px;
-  height: 500px;
+  height: 700px;
   color: #fff;
   background-color: rgba(89, 128, 101, 0.89);
 }
