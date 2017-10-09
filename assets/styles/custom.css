@@ -19,6 +19,7 @@ body {
 
 .section-heading {
   padding: 10px;
+  border-bottom: 1px solid white;
 }
 
 .thumbnail {
