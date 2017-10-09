@@ -25,6 +25,10 @@ body {
   font-size: 12px;
 }
 
+.resume-imbed {
+  display: block;
+}
+
 
 /*.thumbnail > img {
   max-height: 200px;
