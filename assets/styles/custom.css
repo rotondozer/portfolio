@@ -38,46 +38,49 @@ body {
 #about {
   margin-top: 50px;
   padding-top: 50px;
-  height: 500px;color: #fff;
+  /*height: 500px;*/
+  color: #fff;
   background-color: rgba(105, 161, 179, 0.81);
 }
 
 #projects {
   padding-top: 50px;
-  height: 700px;
+  /*height: 700px;*/
   color: #fff;
   background-color: rgba(89, 128, 101, 0.89);
 }
 
 #skills {
   padding-top: 50px;
-  height: 500px;
+  /*height: 500px;*/
   color: #fff;
   background-color: rgba(105, 161, 179, 0.81);
 }
 
 #resume {
   padding-top: 50px;
-  height: 1250px;
+  /*height: 1250px;*/
   color: #fff;
   background-color: rgba(89, 128, 101, 0.89);
 }
 
 #contact {
   padding-top:50px;
-  height:500px;color: #fff;
+  /*height:500px;*/
+  color: #fff;
   background-color: rgba(105, 161, 179, 0.81);
 }
 
 #band {
   padding-top: 50px;
-  height: 500px;
+  /*height: 500px;*/
   color: #fff;
   background-color: rgba(89, 128, 101, 0.89);
 }
 
 #dog {
   padding-top:50px;
-  height:500px;color: #fff;
+  /*height:500px;*/
+  color: #fff;
   background-color: rgba(105, 161, 179, 0.81);
 }
