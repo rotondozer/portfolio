@@ -1,7 +1,16 @@
 body {
   position: relative;
-  font-family: 'Jacques Francois', serif;
-  font-size: 16px;
+  font-family: 'Jacques Francois', serif !important;
+  font-size: 16px !important;
+  background-color: rgba(28, 107, 140, 0.66) !important;
+}
+nav {
+  /*height: 70px;*/
+  /*background-color: rgba(86, 145, 145, 0.74) !important;*/
+}
+
+button[name="show-resume"] {
+  display: none;
 }
 
 .pics {
@@ -14,7 +23,8 @@ body {
 }
 
 .section {
-  padding: 15px !important;
+  padding: 15px;
+  padding-top: 50px !important;
 }
 
 .section-heading {
@@ -24,63 +34,31 @@ body {
 
 .thumbnail {
   font-size: 12px;
+  background-color: rgba(235, 171, 48, 0.75) !important;
+  border: 2px solid rgb(36, 35, 27) !important;
+}
+
+.btn {
+  border: 1px solid black !important;
+}
+
+.btn-primary {
+  background-color: rgba(6, 103, 71, 0.78) !important;
+}
+
+.btn-default {
+
 }
 
 .resume-imbed {
   display: block;
 }
 
-
-/*.thumbnail > img {
-  max-height: 200px;
-}*/
-
-#about {
-  margin-top: 50px;
-  padding-top: 50px;
-  /*height: 500px;*/
-  color: #fff;
-  background-color: rgba(105, 161, 179, 0.81);
-}
-
-#projects {
-  padding-top: 50px;
-  /*height: 700px;*/
-  color: #fff;
-  background-color: rgba(89, 128, 101, 0.89);
-}
-
-#skills {
-  padding-top: 50px;
-  /*height: 500px;*/
-  color: #fff;
-  background-color: rgba(105, 161, 179, 0.81);
-}
-
-#resume {
-  padding-top: 50px;
-  /*height: 1250px;*/
-  color: #fff;
-  background-color: rgba(89, 128, 101, 0.89);
-}
-
-#contact {
-  padding-top:50px;
-  /*height:500px;*/
-  color: #fff;
-  background-color: rgba(105, 161, 179, 0.81);
-}
-
-#band {
-  padding-top: 50px;
-  /*height: 500px;*/
-  color: #fff;
-  background-color: rgba(89, 128, 101, 0.89);
-}
-
-#dog {
-  padding-top:50px;
-  /*height:500px;*/
-  color: #fff;
-  background-color: rgba(105, 161, 179, 0.81);
+@media screen and (min-width: 0px) and (max-width: 820px) {
+  .resume-imbed {
+    display: none;
+  }
+  button[name="show-resume"] {
+    display: inline;
+  }
 }

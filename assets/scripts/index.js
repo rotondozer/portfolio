@@ -7,6 +7,12 @@ $(() => {
   setAPIOrigin(location, config)
 })
 
+$(() => {
+  $("button[name='show-resume']").on('click', () => {
+    $('.resume-imbed').css('display', 'block')
+  })
+})
+
 // use require with a reference to bundle the file and use it in this file
 // const example = require('./example')
 
