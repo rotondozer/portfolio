@@ -8,7 +8,6 @@
 // })
 
 $(() => {
-  alert('hey')
   $("button[name='show-resume']").on('click', () => {
     $('.resume-imbed').css('display', 'block')
   })
