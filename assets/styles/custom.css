@@ -22,6 +22,10 @@ button[name="show-resume"] {
   width: auto;
 }
 
+.phone-and-location {
+  padding: 20px;
+}
+
 .section {
   padding: 15px;
   padding-top: 50px !important;
@@ -38,7 +42,7 @@ button[name="show-resume"] {
 }
 
 .btn {
-  border: 1px solid black !important;
+  /*border: 1px solid black !important;*/
 }
 
 .btn-primary {
@@ -46,7 +50,7 @@ button[name="show-resume"] {
 }
 
 .btn-default {
-
+  border: 1px solid rgba(6, 103, 71, 0.78) !important;
 }
 
 .resume-imbed {

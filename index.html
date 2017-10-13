@@ -166,15 +166,24 @@
     <!-- TODO add phone number field with smaller input fields -->
     <div id="contact" class="container-fluid section">
       <h1 class="section-heading">Contact Me</h1>
-        <form class="" method="POST" action="http://formspree.io/nickrotondo724@gmail.com">
-          <div class="form-group">
-            <label for="enter-email">Email Address</label>
-            <input type="email" class="form-control" id="enter-email" name="_replyto" value="" placeholder="Your Email">
-            <label for="">Body</label>
-            <textarea class="form-control" id="email-contents" name="body" rows="3" placeholder="Your message here"></textarea>
-          </div>
-          <button type="submit" class="btn btn-block btn-primary" name="button">Send</button>
-        </form>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="" method="POST" action="http://formspree.io/nickrotondo724@gmail.com">
+            <div class="form-group">
+              <label for="enter-email">Email Address</label>
+              <input type="email" class="form-control" id="enter-email" name="_replyto" value="" placeholder="Your Email">
+              <label for="">Body</label>
+              <textarea class="form-control" id="email-contents" name="body" rows="3" placeholder="Your message here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block btn-primary" name="button">Send</button>
+          </form>
+        </div> <!-- End Email form column -->
+
+        <div class="col-md-6 phone-and-location">
+          <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><h4>(401) 626-5716</h4>
+          <span class="glyphicon glyphicon-globe"></span><h4>Providence, RI</h4>
+        </div>
+      </div> <!-- End Row -->
     </div>
 
     <!-- TODO add link to bandcamp and/or images from shows -->
