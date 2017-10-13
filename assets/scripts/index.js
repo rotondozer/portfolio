@@ -1,13 +1,14 @@
 'use strict'
 
-const setAPIOrigin = require('../../lib/set-api-origin')
-const config = require('./config')
+// const setAPIOrigin = require('../../lib/set-api-origin')
+// const config = require('./config')
+//
+// $(() => {
+//   setAPIOrigin(location, config)
+// })
 
 $(() => {
-  setAPIOrigin(location, config)
-})
-
-$(() => {
+  alert('hey')
   $("button[name='show-resume']").on('click', () => {
     $('.resume-imbed').css('display', 'block')
   })
