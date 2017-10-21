@@ -1,12 +1,12 @@
 {
   "all": {
-    "src": ["<%= paths.src.all %>"]
+  "src": ["<%= paths.src.all %>"]
   },
 
   "fix": {
-    "src": ["<%= paths.src.all %>"],
-    "options": {
-      "fix": true
-    }
+  "src": ["<%= paths.src.all %>"],
+  "options": {
+    "fix": true
+  }
   }
 }

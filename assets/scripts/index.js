@@ -9,7 +9,7 @@
 
 $(() => {
   $("button[name='show-resume']").on('click', () => {
-    $('.resume-imbed').css('display', 'block')
+  $('.resume-imbed').css('display', 'block')
   })
 })
 

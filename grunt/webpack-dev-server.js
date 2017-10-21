@@ -16,17 +16,17 @@ webpackConfig.module.loaders.push({
 
 module.exports = {
   options: {
-    port,
-    inline: true, // reload on change
-    webpack: webpackConfig,
-    publicPath: '/public/'
+  port,
+  inline: true, // reload on change
+  webpack: webpackConfig,
+  publicPath: '/public/'
   },
 
   start: {
-    keepAlive: true,
-    webpack: {
-      devtool: 'source-map',
-      debug: 'true'
-    }
+  keepAlive: true,
+  webpack: {
+    devtool: 'source-map',
+    debug: 'true'
+  }
   }
 }

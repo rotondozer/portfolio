@@ -57,9 +57,9 @@ const ui = require('./ui');
 
 $(() => {
   $('#my-form').on('submit', function (e) {
-    let data = getFormFields(this);
-    e.preventDefault();
-    api.myRequest(data, ui.success, ui.failure);
+  let data = getFormFields(this);
+  e.preventDefault();
+  api.myRequest(data, ui.success, ui.failure);
   });
 });
 ```

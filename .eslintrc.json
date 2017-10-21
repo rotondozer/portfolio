@@ -2,10 +2,10 @@
   "extends": "standard",
   "root": true,
   "env": {
-      "node": true
+    "node": true
   },
   "rules": {
-    "prefer-const": "error",
-    "no-var": "error"
+  "prefer-const": "error",
+  "no-var": "error"
   }
 }
