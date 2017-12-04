@@ -427,3 +427,7 @@ body {
   width: 100px;
   float:right;*/
 }
+
+#portfolio {
+  border-top: 4px solid rgb(70, 74, 65);
+}
