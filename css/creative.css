@@ -422,10 +422,27 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+@media only screen and (max-width: 500px) {
+  .nick-face img {
+    /*height: 100px;
+    width: 100px;
+    float:right;*/
+  }
+}
+.nick-face {
+  display: flex;
+  box-orient: horizontal;
+  justify-content: center;
+  align-items: center;
+}
+
+.nick-img-container {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
 .nick-face img {
-  /*height: 100px;
-  width: 100px;
-  float:right;*/
+  max-width: 100%;
 }
 
 #portfolio {
