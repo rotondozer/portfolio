@@ -135,18 +135,24 @@
             naked. Unsafe? Dangerous. I don’t like danger. I like type-safety (and I might declare types more than I
             need to) but sometimes those types can help the code be self-documenting!</p>
 
-          <p class="text-faded">My favorite type of all, is the sum type. This Richard Feldman talk
-            [https://www.youtube.com/watch?v=IcgmSRJHu_8], and a mentor from Upserve, really made this stuff eye-opening
-            for me. I was sold. Then it dawned on me that all those advanced math classes I really enjoyed were tying in
-            here. I knew I always liked math! It’s in music, and here it is in programming, my two overlapping passions
-            of connecting brain to hands and building something, whether it be a fleeting moment, a jam, a draft,
+          <p class="text-faded">My favorite type of all, is the sum type. Sum types make
+            <link href="https://www.youtube.com/watch?v=IcgmSRJHu_8">impossible states… well,
+            impossible!</link>
+            <link href="https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript">
+            These Professor Frisby lessons helped me understand</link> how code branching with sum types like
+            <code>Maybe</code> can prevent
+            null values from sneaking in to blow up your application, and make the intent of your code clear. I was
+            sold. Then it
+            dawned on me that all those advanced math classes I really enjoyed were tying in
+            here. I knew I always liked math! It’s in music, and here it is in programming. Passions overlap
+            where mathematical instincts carry solutions brick by brick down to my fingers to build something; whether
+            it be a fleeting moment, a jam, a draft,
             pseudocode, or a symphony of design patterns and architectural successes. The occasional wrong note can
             happen at any given time, but the music goes on! The PR gets approved, the band recovers, and the show goes
-            on. Anyway, sum types make impossible states… well, impossible. And I’ve learned to despise null values.
-            Thank you, crash report, I am well aware that `undefined is not an object`. So I like to write code that
-            makes that crash impossible.</p>
+            on.</p>
 
-          <p class="text-faded">Using these concepts in JS has significantly improved my code-quality, and the bar that
+          <p class="text-faded">Anyway, using these concepts in JS has significantly improved my code-quality, and the
+            bar that
             I set for JS applications (if you’re still reading at this point, please don’t judge me on the code behind
             for this static site. I had to build it quickly with GA so it’s mostly templated and I’m working on redoing
             it, ok!?) but they require external libraries, or some bulky boilerplate. And while I don’t necessarily
