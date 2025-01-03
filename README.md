@@ -1,24 +1,12 @@
-# README
+Portfolio for Nick Rotondo (rotondozer)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a scaffolded rails app that's excluded database configuration. Heroku doesn't host static sites so great, so I needed something a little beefier than just an index.html, but currently this project has way more stuff than it needs.
 
-Things you may want to cover:
+This is hosted at <a href="https://rotondozer.com">rotondozer.com</a>
 
-* Ruby version
+This intends to replace the GH pages portfolio.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deploy to Heroku
+```
+git push heroku main
+```
