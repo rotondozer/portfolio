@@ -5,173 +5,254 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nick Rotondo - Portfolio</title>
   <style>
-    :root {
-      --primary-color: #2c3e50;
-      --secondary-color: #ecf0f1;
-      --accent-color: #3498db;
-      --font-stack: 'Arial', sans-serif;
-    }
+      :root {
+          --primary-color: #2c3e50;
+          --secondary-color: #ecf0f1;
+          --accent-color: #3498db;
+          --font-stack: 'Arial', sans-serif;
+      }
 
-    body {
-      margin: 0;
-      font-family: var(--font-stack);
-      color: var(--primary-color);
-      background-color: var(--secondary-color);
-      line-height: 1.6;
-    }
+      body {
+          margin: 0;
+          font-family: var(--font-stack);
+          color: var(--primary-color);
+          background-color: var(--secondary-color);
+          line-height: 1.6;
+      }
 
-    header {
-      background-color: var(--primary-color);
-      color: var(--secondary-color);
-      padding: 20px 0;
-      text-align: center;
-    }
+      header {
+          background-color: var(--primary-color);
+          color: var(--secondary-color);
+          padding: 20px 0;
+          text-align: center;
+      }
 
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
+      header h1 {
+          margin: 0;
+          font-size: 2.5rem;
+      }
 
-    header p {
-      margin: 5px 0;
-      font-size: 1.2rem;
-    }
+      header p {
+          margin: 5px 0;
+          font-size: 1.2rem;
+      }
 
-    nav {
-      margin-top: 10px;
-    }
+      nav {
+          margin-top: 10px;
+      }
 
-    nav a {
-      color: var(--accent-color);
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
+      nav a {
+          color: var(--accent-color);
+          text-decoration: none;
+          margin: 0 15px;
+          font-weight: bold;
+      }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+      nav a:hover {
+          text-decoration: underline;
+      }
 
-    main {
-      padding: 20px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
+      main {
+          padding: 20px;
+          max-width: 900px;
+          margin: 0 auto;
+      }
 
-    section {
-      margin-bottom: 40px;
-    }
+      section {
+          margin-bottom: 40px;
+      }
 
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 15px;
-      border-bottom: 2px solid var(--accent-color);
-      display: inline-block;
-    }
+      section h2 {
+          font-size: 2rem;
+          margin-bottom: 15px;
+          border-bottom: 2px solid var(--accent-color);
+          display: inline-block;
+      }
 
-    .project {
-      background: #ffffff;
-      border: 1px solid var(--accent-color);
-      padding: 15px;
-      border-radius: 5px;
-      margin-bottom: 20px;
-    }
+      .skills-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;
+      }
 
-    .project h3 {
-      margin: 0 0 10px;
-    }
+      .skill {
+          display: flex;
+          align-items: center;
+          background: #ffffff;
+          border: 1px solid var(--accent-color);
+          padding: 10px 15px;
+          border-radius: 5px;
+          font-size: 1rem;
+      }
 
-    .project a {
-      color: var(--accent-color);
-      text-decoration: none;
-      font-weight: bold;
-    }
+      .skill img {
+          width: 24px;
+          height: 24px;
+          margin-right: 10px;
+      }
 
-    .project a:hover {
-      text-decoration: underline;
-    }
+      .project {
+          background: #ffffff;
+          border: 1px solid var(--accent-color);
+          padding: 15px;
+          border-radius: 5px;
+          margin-bottom: 20px;
+      }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: var(--primary-color);
-      color: var(--secondary-color);
-    }
+      .project h3 {
+          margin: 0 0 10px;
+      }
 
-    footer p {
-      margin: 5px 0;
-    }
+      .project a {
+          color: var(--accent-color);
+          text-decoration: none;
+          font-weight: bold;
+      }
 
-    footer a {
-      color: var(--accent-color);
-      text-decoration: none;
-    }
+      .project a:hover {
+          text-decoration: underline;
+      }
 
-    footer a:hover {
-      text-decoration: underline;
-    }
+      footer {
+          text-align: center;
+          padding: 20px;
+          background-color: var(--primary-color);
+          color: var(--secondary-color);
+      }
+
+      footer p {
+          margin: 5px 0;
+      }
+
+      footer a {
+          color: var(--accent-color);
+          text-decoration: none;
+      }
+
+      footer a:hover {
+          text-decoration: underline;
+      }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Nick Rotondo</h1>
-    <p>Software Engineer | Drummer | Lifelong Learner</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#impact">Impact</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+  <h1>Nick Rotondo</h1>
+  <p>Software Engineer | Drummer | Lifelong Learner</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#impact">Impact</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I’m Nick Rotondo, a software engineer with a passion for solving problems and building impactful solutions. My journey into engineering started with a different kind of creativity—I spent years as a drummer and a restaurant manager before diving into software development.</p>
-      <p>What I love about both music and engineering is how they combine structure and creativity. Over the past several years, I’ve honed my skills in full-stack development, focusing on tools like <strong>Ruby on Rails</strong>, <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Turbo</strong>. Parenthood and my time as a long-time dog dad to Dahlia have shaped who I am today, driving my dedication to creating solutions that matter.</p>
-    </section>
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Nick Rotondo, a software engineer with a passion for solving problems and building impactful solutions. My journey into
+      engineering started with a different kind of creativity—I spent years as a drummer and a restaurant manager before diving
+      into software development.</p>
+    <p>What I love about both music and engineering is how they combine structure and creativity. Over the past several years,
+      I’ve honed my skills in full-stack development, focusing on tools like <strong>Ruby on Rails</strong>,
+      <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Turbo</strong>. Parenthood and my time as a long-time dog
+      dad to Dahlia have shaped who I am today, driving my dedication to creating solutions that matter.</p>
+  </section>
 
-    <section id="impact">
-      <h2>Professional Impact</h2>
-      <p>At <strong>HouseAccount</strong>, I joined as the first engineering hire and played a pivotal role in taking the company from concept to market. I helped build and launch a scalable <strong>Ruby on Rails</strong> platform that achieved 99.9% uptime while processing millions of dollars in transactions. I worked closely with leadership to grow the engineering team, mentor new hires, and establish a collaborative, product-driven culture.</p>
-      <p>At <strong>Upserve</strong>, I combined my restaurant industry experience with software engineering to build POS technology tailored for restaurants and their employees. It was here that I became proficient in <strong>JavaScript</strong> and <strong>TypeScript</strong>, developed high-performance front-end systems with <strong>React</strong>, and gained a passionate appreciation for leveraging <strong>Monads</strong> to create elegant, maintainable code. Mentoring engineers and leading projects were also core strengths at Upserve, where I helped foster team growth and collaboration.</p>
-      <p>Together, these experiences have shaped my ability to lead impactful projects, mentor others, and create meaningful, user-driven solutions by connecting technical innovation with real-world challenges.</p>
-      <p>To learn more about my experience, feel free to <a href="./assets/nick_rotondo_resume.pdf" target="_blank">download my resume</a>.</p>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3><a href="https://github.com/rotondozer/bottle_log" target="_blank">Bottle Log</a></h3>
-        <p>A real-world solution my wife and I use daily to track our son’s bottles. I plan to expand it to include medications, solid foods, and other milestones, using the data to uncover trends and insights to better support our baby.</p>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="./assets/logos/ruby.png" alt="Ruby Logo">
+        Ruby on Rails
       </div>
-      <div class="project">
-        <h3><a href="https://github.com/rotondozer/monthly-budget" target="_blank">Monthly Budget</a></h3>
-        <p>A functional budgeting tool built to learn the <strong>Haskell programming language</strong>. This project showcases my love for hands-on learning while creating something useful.</p>
+      <div class="skill">
+        <img src="./assets/logos/turbo.png" alt="Turbo Logo">
+        Turbo/Stimulus/Hotwire
       </div>
-      <div class="project">
-        <h3><a href="https://github.com/rotondozer/honest-living-band-page" target="_blank">Honest Living Band Page</a></h3>
-        <p>A digital archive for my band, Honest Living, built using the <strong>Elm programming language</strong>. Though the band no longer practices, this site preserves our music and remains a favorite for my wife—our biggest fan!</p>
+      <div class="skill">
+        <img src="./assets/logos/react.png" alt="React Logo">
+        React + React Native
       </div>
-      <div class="project">
-        <h3><a href="https://github.com/rotondozer/catan-calculator" target="_blank">Catan Calculator</a></h3>
-        <p>An experimental project built with <strong>TypeScript</strong> and <strong>sum types (monads)</strong>. Potential applications include serving as an engine for a digital Settlers of Catan or as a companion tool for the physical game. This project reflects my love for combining technical exploration with creativity.</p>
+      <div class="skill">
+        <img src="./assets/logos/javascript.png" alt="JavaScript Logo">
+        JavaScript + TypeScript
       </div>
-    </section>
+      <div class="skill">
+        <img src="./assets/logos/html_css.png" alt="HTML and CSS Logo">
+        HTML/CSS
+      </div>
+      <div class="skill">
+        <img src="./assets/logos/android.png" alt="Android Logo">
+        Android + Java/Kotlin
+      </div>
+      <div class="skill">
+        <img src="./assets/logos/postgresql.png" alt="PostgreSQL Logo">
+        PostgreSQL
+      </div>
+      <div class="skill">
+        <img src="./assets/logos/api.png" alt="API Logo">
+        REST APIs
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>If you’d like to get in touch, feel free to reach out via email or check out my GitHub and LinkedIn below:</p>
-      <p>
-        <a href="mailto:nickrotondo724@gmail.com">Email</a> |
-        <a href="https://github.com/rotondozer" target="_blank">GitHub</a> |
-        <a href="https://linkedin.com/in/nickrotondo724" target="_blank">LinkedIn</a>
-      </p>
-    </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 Nick Rotondo. Built with care and curiosity.</p>
-  </footer>
+  <section id="impact">
+    <h2>Professional Impact</h2>
+    <p>At <strong>HouseAccount</strong>, I joined as the first engineering hire and played a pivotal role in taking the company
+      from concept to market. I helped build and launch a scalable <strong>Ruby on Rails</strong> platform that achieved 99.9%
+      uptime while processing millions of dollars in transactions. I worked closely with leadership to grow the engineering team,
+      mentor new hires, and establish a collaborative, product-driven culture.</p>
+    <p>At <strong>Upserve</strong>, I combined my restaurant industry experience with software engineering to build POS technology
+      tailored for restaurants and their employees. It was here that I became proficient in <strong>JavaScript</strong> and
+      <strong>TypeScript</strong>, developed high-performance front-end systems with <strong>React</strong>, and gained a
+      passionate appreciation for leveraging <strong>Monads</strong> to create elegant, maintainable code. Mentoring engineers and
+      leading projects were also core strengths at Upserve, where I helped foster team growth and collaboration.</p>
+    <p>Together, these experiences have shaped my ability to lead impactful projects, mentor others, and create meaningful,
+      user-driven solutions by connecting technical innovation with real-world challenges.</p>
+    <p>To learn more about my experience, feel free to <a href="./assets/nick_rotondo_resume.pdf" target="_blank">download my
+      resume</a>.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3><a href="https://github.com/rotondozer/bottle_log" target="_blank">Bottle Log</a></h3>
+      <p>A real-world solution my wife and I use daily to track our son’s bottles. I plan to expand it to include medications,
+        solid foods, and other milestones, using the data to uncover trends and insights to better support our baby.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/rotondozer/monthly-budget" target="_blank">Monthly Budget</a></h3>
+      <p>A functional budgeting tool built to learn the <strong>Haskell programming language</strong>. This project showcases my
+        love for hands-on learning while creating something useful.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/rotondozer/honest-living-band-page" target="_blank">Honest Living Band Page</a></h3>
+      <p>A digital archive for my band, Honest Living, built using the <strong>Elm programming language</strong>. Though the band
+        no longer practices, this site preserves our music and remains a favorite for my wife—our biggest fan!</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/rotondozer/catan-calculator" target="_blank">Catan Calculator</a></h3>
+      <p>An experimental project built with <strong>TypeScript</strong> and <strong>sum types (monads)</strong>. Potential
+        applications include serving as an engine for a digital Settlers of Catan or as a companion tool for the physical game.
+        This project reflects my love for combining technical exploration with creativity.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you’d like to get in touch, feel free to reach out via email or check out my GitHub and LinkedIn below:</p>
+    <p>
+      <a href="mailto:nickrotondo724@gmail.com">Email</a> |
+      <a href="https://github.com/rotondozer" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/nickrotondo724" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 rotondozer</p>
+</footer>
 </body>
 </html>
