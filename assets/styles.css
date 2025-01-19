@@ -34,6 +34,11 @@ nav {
     margin-top: 10px;
 }
 
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 nav a {
     color: var(--accent-color);
     text-decoration: none;
@@ -104,6 +109,46 @@ section h2 {
 
 .project a:hover {
     text-decoration: underline;
+}
+
+.project a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 }
 
 footer {
