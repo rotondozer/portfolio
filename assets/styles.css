@@ -39,6 +39,12 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
 nav a {
     color: var(--accent-color);
     text-decoration: none;
@@ -73,6 +79,17 @@ section h2 {
     gap: 15px;
 }
 
+.icon-and-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .skill {
     display: flex;
     align-items: center;
@@ -95,10 +112,6 @@ section h2 {
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
-}
-
-.project h3 {
-    margin: 0 0 10px;
 }
 
 .project a {
@@ -132,7 +145,6 @@ section h2 {
     justify-content: center;
     width: 33%;
 }
-
 
 .contact-item img {
     width: 24px;
