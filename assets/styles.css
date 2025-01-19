@@ -121,16 +121,18 @@ section h2 {
     text-decoration: underline;
 }
 
-.contact-item {
-    display: flex;
-    align-items: center;
-}
-
 .contact-items-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.contact-item {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
 
 .contact-item img {
     width: 24px;
