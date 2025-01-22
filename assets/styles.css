@@ -106,12 +106,6 @@ section h2 {
     font-size: 1rem;
 }
 
-.skill img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-}
-
 .project {
     background: #ffffff;
     border: 1px solid var(--accent-color);
