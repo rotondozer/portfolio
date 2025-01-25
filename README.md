@@ -1,2 +1,1 @@
-Personal Portfolio
-of Nick Rotondo
+Personal Portfolio of Nick Rotondo
